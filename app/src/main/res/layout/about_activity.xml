@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_terms"
+        android:textSize="16sp"
+        android:id="@+id/about_terms"
+        style="@style/about_terms"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:text="@string/about_twitter"
+        android:textSize="20sp"
+        style="@style/about_bottom"
+        android:id="@+id/about_twitter"
+        android:onClick="AboutLinks"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/about_twitter"
+        android:text="@string/about_website"
+        android:textSize="20sp"
+        style="@style/about_bottom"
+        android:id="@+id/about_website"
+        android:onClick="AboutLinks"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/dandy_step_logo_description"
+        android:layout_above="@id/about_website"
+        android:src="@drawable/dandystep_logo"
+        style="@style/about_bottom"
+        android:id="@+id/about_bottom"/>
+
+</RelativeLayout>

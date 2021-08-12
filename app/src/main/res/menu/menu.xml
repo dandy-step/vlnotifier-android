@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/menuitem_edit_notifications"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/editbutton"
+        android:id="@+id/edit_subs_button">
+    </item>
+
+    <item android:title="@string/menuitem_sort">
+        <menu>
+            <item android:title="@string/menuitem_alphabetica"
+                android:id="@+id/alphabetical"/>
+            <item android:title="@string/menuitem_dateadded"
+                android:id="@+id/date_added"/>
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/menuitem_use_puffin"
+        app:showAsAction="never"
+        android:checkable="true"
+        android:id="@+id/puffin_menu_item"/>
+
+    <item
+        android:id="@+id/privacy_policy_menu_item"
+        android:onClick="PrivacyPolicy"
+        android:title="@string/privacy_policy_menu_item"
+        app:showAsAction="never" />
+    <item
+        android:title="@string/menuitem_about"
+        app:showAsAction="never"
+        android:id="@+id/about_menu_item"
+        android:onClick="AboutButton"/>
+</menu>

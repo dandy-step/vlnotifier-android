@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VL Notifier</string>
+    <string name="empty_list_string">"You have no casters! Try adding some by tapping the \"+\" button in the lower right and get notifications when your favorite Vaughn casters are live!"</string>
+    <string name="delete_from_list">"Remove from list"</string>
+    <string name="no_puffin_warning">"It seems like you don't have Puffin Browser installed. Puffin Browser is a web browser for Android that supports Flash, which Vaughn Live uses. Would you like to install it?\nYou can also disable the use of Puffin Browser in the settings menu, which will open this link using your regular browser."</string>
+    <string name="vl_link_concatenate">"vaughnlive.tv/%s"</string>
+    <string name="logo_content_description">Caster logo</string>
+    <string name="dandy_step_logo_description">Dandy Step logo</string>
+    <string name="about_terms">VL Notifier is not affiliated with VaughnSoft, and has been developed by Dandy Step as a third party.\nVaughn Live is the property of VaughnSoft. All trademarks and/or copyrights are the property of their respective owners, and no copyright infringement is intended. Functionality and uptime are not guaranteed and may be subject to change, along with these terms, at any time.</string>
+    <string name="about_website">www.dandystep.com</string>
+    <string name="about_twitter">"@dandystep"</string>
+    <string name="placeholder_text">Placeholder here</string>
+    <string name="menuitem_edit_notifications">Edit Notifications</string>
+    <string name="menuitem_sort">Sort</string>
+    <string name="menuitem_alphabetica">Alphabetical</string>
+    <string name="menuitem_dateadded">Date Added</string>
+    <string name="menuitem_use_puffin">Use Puffin Browser</string>
+    <string name="menuitem_about">About</string>
+    <string name="privacy_policy_menu_item">Privacy Policy</string>
+</resources>

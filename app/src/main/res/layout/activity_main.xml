@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#264972"
+    tools:context="com.dandystep.vlnotifier.MainActivity"
+    android:id="@+id/main_activity_root">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/empty_list_string"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingEnd="42dp"
+        android:paddingStart="42dp"
+        android:id="@+id/emptyListWarning"/>
+
+    <android.widget.ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:dividerHeight="8dp"
+        android:overScrollMode="never"
+        android:background="#264972"
+        android:clipToPadding="false"
+        android:id="@+id/list"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:fabSize="normal"
+        android:layout_margin="16sp"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@android:color/white"
+        android:id="@+id/fab"
+        android:onClick="Clicked"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

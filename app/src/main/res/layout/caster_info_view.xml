@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:id="@+id/caster_info_dlg_root">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/placeholder_text"
+        android:textAllCaps="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        style="@style/caster_info_alert"
+        android:id="@+id/caster_info_dlg_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_text"
+        android:layout_gravity="center_horizontal"
+        style="@style/caster_info_link"
+        android:id="@+id/caster_info_dlg_link"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/logo_content_description"
+        android:src="@drawable/nophoto"
+        android:id="@+id/caster_info_dlg_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_from_list"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/caster_info_dlg_delete_button"/>
+
+</LinearLayout>
